@@ -20,6 +20,10 @@ def now():
 # Starting animation
 keyboard.press_and_release("f11")
 onlinemode = True
+print(Fore.RED + "Please note, that this program is outdated! Please use FyUTILS 6.0 or newer")
+print(Fore.RED + "If you still want to use this version, edit the file and replace the text in comment one with the text in comment number two.")
+# "start %userprofile%\FyUTILS\FyUTILS 5.py"
+# Replace it with the path of the file.
 time.sleep(0.05)
 print(Fore.CYAN + "FFFFFFFFFFFFFFFFFFFFFF     YYYYYYY       YYYYYYY  " + Fore.WHITE + "   UUUUUUUU     UUUUUUUU     TTTTTTTTTTTTTTTTTTTTTTT     IIIIIIIIII     LLLLLLLLLLL                     SSSSSSSSSSSSSSS")
 time.sleep(0.05)
@@ -140,7 +144,7 @@ if cmd == "dos":
     time.sleep(1)
     print(Fore.LIGHTBLACK_EX + "========================================================================================================================")
     time.sleep(1)
-    os.system("start %userprofile%\FyUTILS\FyUTILS-5.py")
+    os.system("start %userprofile%\FyUTILS\FyUTILS 5.py")
     time.sleep(2)
     exit()
 
@@ -161,7 +165,7 @@ if cmd == "fyutils":
     time.sleep(0.05)
     print(Fore.WHITE + "")
     os.system("pause")
-    os.system("start %userprofile%\FyUTILS\FyUTILS-5.py")
+    os.system("start %userprofile%\FyUTILS\FyUTILS 5.py")
     time.sleep(2)
     exit()
 
@@ -176,7 +180,7 @@ if cmd == "cmd":
     print(Fore.WHITE + "")
     os.system("cmd")
     time.sleep(0.05)
-    os.system("start %userprofile%\FyUTILS\FyUTILS-5.py")
+    os.system("start %userprofile%\FyUTILS\FyUTILS 5.py")
     time.sleep(2)
     exit()
 
@@ -212,7 +216,7 @@ if cmd == "restart":
     time.sleep(1)
     print(Fore.WHITE + "Restart in 1", end='\r')
     time.sleep(1)
-    os.system("start %userprofile%\FyUTILS\FyUTILS-5.py")
+    os.system("start %userprofile%\FyUTILS\FyUTILS 5.py")
     time.sleep(2)
     exit()
 
@@ -220,6 +224,6 @@ if cmd == "restart":
 print("")
 print(Fore.RED + "Unknown Command")
 time.sleep(2)
-os.system("start %userprofile%\FyUTILS\FyUTILS-5.py")
+os.system("start %userprofile%\FyUTILS\FyUTILS 5.py")
 time.sleep(2)
 exit()

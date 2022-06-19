@@ -4,12 +4,11 @@ from colorama import Fore, init
 
 init(convert=True)
 
-
-def rndm(size=40, chars=string.ascii_uppercase + string.digits):
-    return "".join(random.choice(chars) for _ in range(size))
-
-
 keyboard.press_and_release("f11")
+print(Fore.RED + "Please note, that this program is outdated! Please use FyUTILS 6.0 or newer")
+print(Fore.RED + "If you still want to use this version, edit the file and replace the text in comment one with the text in comment number two.")
+# "start %userprofile%\FyUTILS\FyUTILS-4.py"
+# Replace it with the path of the file.
 time.sleep(0.3)
 print(Fore.CYAN + "  ______  __     __  _    _   _______   _____   _         _____               _  _          ___      _____            _     _                         ______       _   _   _     _")
 time.sleep(0.1)
