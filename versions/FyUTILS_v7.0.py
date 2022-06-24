@@ -22,7 +22,6 @@ def now():
 
 fullscreen = False
 onlinemode = True
-if 
 for i in range(99999):
 
     # Starting animation
